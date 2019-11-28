@@ -5,6 +5,7 @@ languages.
 
 • Comments: Comments start with a ’;’ and finish with a newline. A comment can
   be either at the start of a line, or after an instruction.
+
 • push v: Pushes the value v at the top of the stack. The value v must have one of
   the following form:
   ◦ int8(n) : Creates an 8-bit integer with value n.
