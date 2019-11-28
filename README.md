@@ -9,15 +9,15 @@ languages.
 • push v: Pushes the value v at the top of the stack. The value v must have one of
   the following form:
   
-  ◦ int8(n) : Creates an 8-bit integer with value n.
+    ◦ int8(n) : Creates an 8-bit integer with value n.
   
-  ◦ int16(n) : Creates a 16-bit integer with value n.
+    ◦ int16(n) : Creates a 16-bit integer with value n.
   
-  ◦ int32(n) : Creates a 32-bit integer with value n.
+    ◦ int32(n) : Creates a 32-bit integer with value n.
   
-  ◦ float(z) : Creates a float with value z.
+    ◦ float(z) : Creates a float with value z.
   
-  ◦ double(z) : Creates a double with value z.
+    ◦ double(z) : Creates a double with value z.
 
 • pop: Unstacks the value from the top of the stack. If the stack is empty, the
   program execution must stop with an error.
