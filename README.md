@@ -67,3 +67,22 @@ languages.
   Machine be able to run programs from a file passed as a parameter and from the standard input. 
   When reading from the standard input, the end of the program is indicated 
   by the special symbol ";;" otherwise absent.
+  
+  <b>Run</b>
+  
+  make
+  ./avm
+  
+  <b>Exemple:</b>
+  
+  push int32(42)<br>
+  push int32(33)<br>
+  add<br>
+  push float(44.55)<br>
+  mul<br>
+  push double(42.42)<br>
+  push int32(42)<br>
+  dump<br>
+  pop<br>
+  assert double(42.42)<br>
+  exit<br>
