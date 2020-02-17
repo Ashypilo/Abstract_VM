@@ -70,7 +70,7 @@ languages.
   
   <b>Run</b>
   
-  make
+  make<br>
   ./avm
   
   <b>Exemple:</b>
